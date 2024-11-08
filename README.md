@@ -17,13 +17,13 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-## BlackJack Game Rules
+# BlackJack Game Rules
 
-### 블랙잭 게임 규칙
+## 블랙잭 게임 규칙
 
 ---
 
-#### 기본 규칙
+### 기본 규칙
 
 1. **목적**
 
@@ -34,7 +34,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 카드 점수
+### 카드 점수
 
 - **A (에이스)**: 1 또는 11 (상황에 따라 선택)
 - **2-10**: 카드에 적힌 숫자와 동일
@@ -42,7 +42,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 게임 결과 및 배당률
+### 게임 결과 및 배당률
 
 | 결과          | 배당률         |
 | ------------- | -------------- |
@@ -53,7 +53,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 기본 규칙 설명
+### 기본 규칙 설명
 
 - **카드 지급**: 처음에 카드 2장을 지급받습니다.
 - **승리 조건**: 카드의 합이 21에 가장 가까운 사람이 승리합니다.
@@ -62,7 +62,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 용어 설명
+### 용어 설명
 
 - **블랙잭**
 
@@ -98,7 +98,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 추가 규칙
+### 추가 규칙
 
 - **원아이드 잭**
 
@@ -113,7 +113,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### 족보 정리
+### 족보 정리
 
 - **족보 우선순위**
   일반합 21 < n-카드 찰리 < 블랙잭 < 원아이드 잭
@@ -122,7 +122,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-### 블랙잭 플레이 흐름
+## 블랙잭 플레이 흐름
+
+---
 
 ### **Step 1. 배팅**
 
