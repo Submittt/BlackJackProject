@@ -17,6 +17,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
+---
+
 # BlackJack Game Rules
 
 ## 블랙잭 게임 규칙
@@ -123,8 +125,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ---
 
 ## 블랙잭 플레이 흐름
-
----
 
 ### **Step 1. 배팅**
 
