@@ -23,8 +23,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## 블랙잭 게임 규칙
 
----
-
 ### 기본 규칙
 
 1. **목적**
