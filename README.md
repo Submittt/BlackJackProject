@@ -126,7 +126,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 #### **Step 1. 배팅**
 
-카드를 받기 전 룰에 따른 가능 범위 내의 배팅
+    카드를 받기 전 룰에 따른 가능 범위 내의 배팅
 
 ---
 
