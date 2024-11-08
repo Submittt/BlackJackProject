@@ -92,6 +92,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
   에이스(Ace)와 6의 조합으로 이루어진 합이 17이 되는 경우
   에이스는 1로도 11로도 집계가 가능하기에
+
   **소프트 17** 상황에서는 딜러는 추가 히트 (Hit) 진행 가능
 
 - **서렌더 (Surrender)**
@@ -188,6 +189,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 플레이어의 핸드(패)가 **버스트 or 서렌더** 선언이 되지 않았을 경우
 딜러의 턴으로 진행하며
+
 뒤집힌 카드를 오픈하여 카드의 합 확인
 
 1. 딜러 핸드의 합이 **17 이상**이면 자동 스탠드(Stand)
