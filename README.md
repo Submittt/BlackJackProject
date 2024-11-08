@@ -191,6 +191,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
     2. 딜러 핸드의 합이 **16 이하**이면 자동 히트(Hit)
     3. 더블다운(Double Down) 혹은 스플릿(Split)과 서렌더(Surrender) **선택 불가능**
     4. 딜러는 기본적으로 선택의 여지 없이 패(핸드)의 합계에 따라 플레이
+
        단, **소프트 17(Soft 17)** 의 상황은 예외
 
 ---
