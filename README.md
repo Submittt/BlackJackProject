@@ -124,13 +124,13 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ### 블랙잭 플레이 흐름
 
-#### **Step 1. 배팅**
+### **Step 1. 배팅**
 
-    카드를 받기 전 룰에 따른 가능 범위 내의 배팅
+카드를 받기 전 룰에 따른 가능 범위 내의 배팅
 
 ---
 
-#### **Step 2. 딜러의 카드 배분**
+### **Step 2. 딜러의 카드 배분**
 
 1. 배팅이 완료 된 후 플레이어에게 한 장의 카드를 (숫자가 보이게) 배분
 2. 딜러 자신에게 숫자가 보이지 않게 한 장의 카드를 배분
@@ -145,7 +145,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### **Step 3. 플레이어 턴**
+### **Step 3. 플레이어 턴**
 
 보유한 핸드(패)에 따라서 플레이 방향을 결정한다
 
@@ -183,7 +183,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### **Step 4. 딜러 턴**
+### **Step 4. 딜러 턴**
 
 플레이어의 핸드(패)가 **버스트 or 서렌더** 선언이 되지 않았을 경우
 딜러의 턴으로 진행하며 뒤집힌 카드를 오픈하여 카드의 합 확인
@@ -197,7 +197,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-#### **Step 5. 결과 정산**
+### **Step 5. 결과 정산**
 
 플레이어들과 딜러의 핸드플레이까지 완료되면 다음에 따라 **결과 정산**
 
