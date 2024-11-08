@@ -115,11 +115,13 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - **플레이어만 찰리 규칙 적용**
   - 딜러가 찰리를 성립하면 버스트로 처리
 
+---
+
 #### 블랙잭 플레이 흐름
 
 - **Step 1. 배팅**
 
-* 카드를 받기 전 룰에 따른 가능 범위 내의 배팅
+  카드를 받기 전 룰에 따른 가능 범위 내의 배팅
 
 - **Step 2. 딜러의 카드 배분**
 
