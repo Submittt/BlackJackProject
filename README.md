@@ -137,7 +137,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
   3. 추가로 각 플레이어에게 한 장의 카드를 (숫자가 보이게) 배분
   4. 딜러 자신에게 숫자가 보이게 한 장의 카드를 배분
 
-  - 최종 배분 결과
+  - **최종 배분 결과**
 
     플레이어 : 숫자가 보이는 카드 2장
     딜러 : 숫자가 보이는 카드 1장 / 보이지 않는 카드 1장
@@ -184,7 +184,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - **Step 4. 딜러 턴**
 
-  - 딜러 턴: 플레이어의 핸드(패)가 버스트 or 서렌더 선언이 되지 않았을 경우
+  - 플레이어의 핸드(패)가 **버스트 or 서렌더** 선언이 되지 않았을 경우
     딜러의 턴으로 진행하며 뒤집힌 카드를 오픈하여 카드의 합 확인
 
     1. 딜러 핸드의 합이 **17 이상**이면 자동 스탠드(Stand)
@@ -198,7 +198,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - **Step 5. 결과 정산**
 
-  - 결과정산: 플레이어들과 딜러의 핸드플레이까지 완료되면 다음에 따라 결과 정산
+  - 플레이어들과 딜러의 핸드플레이까지 완료되면 다음에 따라 **결과 정산**
 
     1. 딜러의 버스트(Bust)
        생존 중인 플레이어의 각 패 마다 **배팅금액(1배수)** 지급
