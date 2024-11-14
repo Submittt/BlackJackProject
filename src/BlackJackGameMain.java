@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 
 public class BlackJackGameMain {
@@ -24,14 +25,19 @@ public class BlackJackGameMain {
 
         while (true) {
             System.out.println("1. 게임시작  2. 게임 종료");
-            userSelectNum = scan.nextInt();
-            
-            if (userSelectNum == 1 || userSelectNum == 2) {
-                break;
-            } else {
-                System.out.println("잘못된 입력값입니다 다시 입력해주세요.");
-                continue;
-            } 
+        
+            try {
+                userSelectNum = scan.nextInt();
+
+                if (userSelectNum == 1 || userSelectNum == 2) {
+                    break;
+                } else {
+                    System.out.println("1과 2 중에서 입력해주세요.");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("1과 2 중에서 입력해주세요.");
+                scan.next();
+            }
         }
         return userSelectNum;
     }
