@@ -1,7 +1,5 @@
 package List;
 
-import javax.swing.text.html.ObjectView;
-
 public class LinkedList {
     private Node head;
     private Node tail;
