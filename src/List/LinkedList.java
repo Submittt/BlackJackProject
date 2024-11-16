@@ -1,5 +1,7 @@
 package List;
 
+import javax.swing.text.html.ObjectView;
+
 public class LinkedList {
     private Node head;
     private Node tail;
@@ -120,5 +122,60 @@ public class LinkedList {
         str += temp.data;
 
         return str + "]";
+    }
+
+    public Object removeFirst() {
+        Node temp = head;
+        head = head.next;
+        Object returnData = temp.data;
+        temp = null;
+        size--;
+        return returnData;
+    }
+
+    public Object remove(int k) {
+        if(k == 0) {
+            return removeFirst();
+        }
+        Node prevNode = node(k-1);
+        Node todoDeleted = prevNode.next;
+        prevNode.next = todoDeleted.next;
+        Object returnData = todoDeleted.data;
+        
+        if(todoDeleted == tail) {
+            tail = prevNode;
+        }
+        todoDeleted = null;
+        size--;
+
+        return returnData;
+    }
+
+    public Object removeLast() {
+        return remove(size - 1);
+    }
+
+    public int size() {
+        return size;
+    }
+
+    public Object get(int index) {
+        Node targetNode = node(index);
+        return targetNode.data;
+    }
+
+    public int indexOf(Object value) {
+        Node temp = head;
+        int index = 0;
+        while (temp.data != value) {
+            temp = temp.next;
+            index++;
+
+            if(temp == null) {
+                return -1;
+            // -1은 리스트에 값이 존재하지 않는다는 뜻의 관례
+            }
+        }
+        return index;
     }
 }
