@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -18,23 +19,32 @@ public class BlackJackGameMain {
     }
 
     public static int inputSelector() {
+    Scanner scan = new Scanner(System.in);
+    int userSelectNum = -1;
 
-        Scanner scan = new Scanner(System.in);
-        int userSelectNum;
-
+    try {
         while (true) {
-            System.out.println("1. 게임시작  2. 게임 종료");
-            userSelectNum = scan.nextInt();
-            
-            if (userSelectNum == 1 || userSelectNum == 2) {
-                break;
-            } else {
-                System.out.println("잘못된 입력값입니다 다시 입력해주세요.");
-                continue;
-            } 
+            System.out.println("1. 게임 시작  2. 게임 종료");
+            try {
+                userSelectNum = scan.nextInt();
+
+                if (userSelectNum == 1 || userSelectNum == 2) {
+                    break;
+                } else {
+                    System.out.println("1 또는 2를 입력해주세요.");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("숫자를 입력해주세요. 1 또는 2를 입력해주세요.");
+                scan.next(); //값 버리기
+            }
         }
-        return userSelectNum;
+    } finally {
+        scan.close();
     }
+
+    return userSelectNum;
+}
+
 
 
     public static void main(String[] args) {
