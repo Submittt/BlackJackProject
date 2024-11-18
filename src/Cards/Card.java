@@ -41,6 +41,13 @@ public class Card {
             return false;
         }
     }
+
+    public String toString() {
+        return "Card {" +
+                "suit= '" + suit + '\'' +
+                ", rank= " + rank +
+                '}';
+    }
     
     // public static void main(String[] args) {
     //     Card card = new Card("spades", 1);
