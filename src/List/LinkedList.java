@@ -63,7 +63,7 @@ public class LinkedList {
         x = x.next를 x = head를 기점으로
         n번 반복하면 n번째 노드로 도달하는 규칙성을 가진다
         x = x.next; => head로 부터 다음 (index : 1)
-        x = x.next; => haed로 부터 다음다음 (index : 2)
+        x = x.next; => head로 부터 다음다음 (index : 2)
          */
 
         // x가 tail일때 => 마지막
