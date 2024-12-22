@@ -3,7 +3,7 @@ package Cards;
 public class CardDeck {
     
     private int cardCounter;
-    private Card[] deck = new Card[4 * Card.SizeOfOneSuit];
+    public Card[] deck = new Card[4 * Card.SizeOfOneSuit];
 
     private void createSuit(String whichSuit) {
         for (int i = 1; i <= Card.SizeOfOneSuit; i++) {
